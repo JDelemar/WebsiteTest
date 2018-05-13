@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ef480246d6923bbfc5b6"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4143ced6443986f1759b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -65016,7 +65016,7 @@ var getQouteFromSite = function () {
     // source: https://github.com/Microsoft/TypeScript/issues/14858
     // IE error: 'Promise' is undefined
     return new Promise(function (resolve, reject) {
-        request('http://ron-swanson-quotes.herokuapp.com/v2/quotes', function (error, response, body) {
+        request('https://ron-swanson-quotes.herokuapp.com/v2/quotes', function (error, response, body) {
             quote = body;
             resolve(quote);
             reject(error);

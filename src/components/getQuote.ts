@@ -12,7 +12,7 @@ const getQouteFromSite = () => {
     // source: https://github.com/Microsoft/TypeScript/issues/14858
     // IE error: 'Promise' is undefined
     return new Promise<string>(function (resolve: any, reject: any) {
-        request('http://ron-swanson-quotes.herokuapp.com/v2/quotes', function (error: any, response: any, body: any) {
+        request('https://ron-swanson-quotes.herokuapp.com/v2/quotes', function (error: any, response: any, body: any) {
             quote = body;
       
             resolve(quote);
