@@ -7,7 +7,8 @@
     "test": "mocha -r ts-node/register test/**/*.spec.ts",
     "dev": "NODE_ENV=development webpack-dev-server #npm run lint && ",
     "prod": "npm run clean && NODE_ENV=production webpack",
-    "clean": "rimraf ./docs/*"
+    "clean": "rimraf ./docs/*",
+    "copy": "rimraf ../docs/* && cp -R ./docs/* ../docs/"
   },
   "author": "James Delemar",
   "license": "0BSD",
