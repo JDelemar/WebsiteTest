@@ -23,19 +23,19 @@ Copy the ouput files from the project's docs directory to the main repository's 
 Seems to be better results using `yarn` to install packages in particular with angular-webpack-typescript  
 Then angular-webpack-typescript starts off with the following errors (the commented lines show how to correct them):  
 ```s
-ERROR in /Volumes/MacOS/Users/delemar/MyData/Temp/WebsiteTest/angular-webpack-typescript/node_modules/@types/webpack/index.d.ts
+ERROR in /WebsiteTest/angular-webpack-typescript/node_modules/@types/webpack/index.d.ts
 (21,30): error TS2307: Cannot find module 'source-map'.
 # change line: 21 from 'source-map' to './node_modules/source-map/source-map'
 
-ERROR in /Volumes/MacOS/Users/delemar/MyData/Temp/WebsiteTest/angular-webpack-typescript/node_modules/@types/uglify-js/index.d.ts
+ERROR in /WebsiteTest/angular-webpack-typescript/node_modules/@types/uglify-js/index.d.ts
 (7,30): error TS2307: Cannot find module 'source-map'.
 # change line: 7 from 'source-map' to './node_modules/source-map/source-map'
 
-ERROR in /Volumes/MacOS/Users/delemar/MyData/Temp/WebsiteTest/angular-webpack-typescript/node_modules/@uirouter/core/lib/common/trace.d.ts
+ERROR in /WebsiteTest/angular-webpack-typescript/node_modules/@uirouter/core/lib/common/trace.d.ts
 (2,27): error TS2307: Cannot find module '../view'.
 # change line: 2 from '../view' to '../view/view'
 
-ERROR in /Volumes/MacOS/Users/delemar/MyData/Temp/WebsiteTest/angular-webpack-typescript/node_modules/@uirouter/core/lib/state/targetState.d.ts
+ERROR in /WebsiteTest/angular-webpack-typescript/node_modules/@uirouter/core/lib/state/targetState.d.ts
 (9,27): error TS2307: Cannot find module '../params'.
 # change line: 2 from '../params' to ''../params/interface''
 ```
