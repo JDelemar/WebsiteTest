@@ -6,6 +6,7 @@ The current site (code located in the docs folder) can be viewed at https://jdel
 ## Projects
 Webpack hot module reload with Typescript  
 Angular 1.6 - Typescript - Webpack starter pack from https://github.com/deonclem/angular-webpack-typescript  
+Angular 6 website generated with angular-cli from https://angular.io/guide/quickstart  
 
 ## Using
 Clone this repository  
