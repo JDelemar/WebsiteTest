@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./node_modules"
+  },
+  "files": [
+    "index.ts",
+    "globals.d.ts"
+  ]
+}
