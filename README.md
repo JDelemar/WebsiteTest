@@ -20,7 +20,7 @@ When you are ready, make the distributalbe code `npm run prod`
 Copy the ouput files from the project's docs directory to the main repository's docs folder. GitHub Pages should display your generated HTML files  
 
 ### Notes
-**Angular webpack typescript project**
+**Angular webpack typescript project**  
 Seems to be better results using `yarn` to install packages in particular with angular-webpack-typescript  
 Then angular-webpack-typescript starts off with the following errors (the commented lines show how to correct them):  
 ```s
@@ -40,4 +40,4 @@ ERROR in /WebsiteTest/angular-webpack-typescript/node_modules/@uirouter/core/lib
 (9,27): error TS2307: Cannot find module '../params'.
 # change line: 2 from '../params' to ''../params/interface''
 ```
-Added the following to the index.html base URL so documents would be found: `<base href="https://jdelemar.github.io/WebsiteTest/">`  
+Added the following to the index.html base URL so documents would be found in AngularJs and Angular projects: `<base href="https://jdelemar.github.io/WebsiteTest/">`  
