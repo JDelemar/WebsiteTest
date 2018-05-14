@@ -2,7 +2,7 @@ export function config($urlRouterProvider: ng.ui.IUrlRouterProvider, $locationPr
     "ngInject"; //needed when directly exporting a class or function
     if (ON_PROD) {
         $locationProvider.html5Mode(true);
-        $urlRouterProvider.otherwise('/WebsiteTest');
+        //$urlRouterProvider.otherwise('/WebsiteTest');
     }
     $urlRouterProvider.otherwise('/');
 }
