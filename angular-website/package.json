@@ -6,7 +6,8 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "postinstall": "ngcc --properties es2015 browser module main"
+    "postinstall": "ngcc --properties es2015 browser module main",
+    "copy:ag-grid": "rimraf ../docs/* && cp -R ./dist/apps/test-ag-grid/* ../docs/ "
   },
   "private": true,
   "dependencies": {
